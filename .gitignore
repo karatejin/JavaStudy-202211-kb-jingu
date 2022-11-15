@@ -1,4 +1,7 @@
-# Compiled class file
+#IDE
+.idea/*
+
+# Compiled class file 주석
 *.class
 
 # Log file
