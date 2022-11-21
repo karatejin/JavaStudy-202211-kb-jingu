@@ -28,6 +28,21 @@ public class Array5 {
         }
         System.out.println("min: " + min);
 
-       /* System.out.println(isSubset(nums1, nums2,));*/
+        int [] minNum = new int[nums1.length];
+        for(int i = 0; i < nums1.length; i++){
+            if(nums1[i] < nums2[i]){
+                minNum[i] = nums1[i];
+            } else if (nums2[i] < nums3[i]){
+                minNum[i] = nums2[i];
+            } else if (nums3[i] < nums4[i]){
+                minNum[i] = nums3[i];
+            } else {
+                minNum[i] = nums4[i];
+            }
+        }
+        for(int i = 0; i < nums1.length; i++) {
+            System.out.print(minNum[i]);
+            System.out.print(i != (nums1.length-1) ? ", " : " ");
+        }
     }
 }
