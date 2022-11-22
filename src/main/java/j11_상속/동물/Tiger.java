@@ -9,7 +9,7 @@ public class Tiger extends Animal{
     @Override
     public void move() {
         //super.move();/*부모의 메소드를 호출하라.*/ /*super는 부모의 주소*/
-        System.out.println("호랑이가 달립니다.");
+        System.out.println("호랑이가 네 발로 뜁니다.");
     }
 
     public void hunting(){
