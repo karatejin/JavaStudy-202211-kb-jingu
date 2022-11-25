@@ -1,6 +1,6 @@
 package j14_스태틱;
 
-import j07_메소드.Method1;
+import j06_반복.j07_메소드.Method1;
 
 public class ProductMain {
 
