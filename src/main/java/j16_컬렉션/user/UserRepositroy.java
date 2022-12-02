@@ -23,7 +23,7 @@ public class UserRepositroy { /*사용자 등록 수정 등을 위한 클래스*
 		Map<String, Object> userMap = null; /*못찾음?*/
 		
 		for(Map<String, Object> user : userList) { /*userList에서 하나씩 꺼내*/
-			String _username = (String)user.get("username"); /*임시로 쓰는 변수명 _변수명*/ /*키값 username을 꺼내면 value도 가져오자. 위에 있는 거랑 다름.*/
+			String _username = (String)user.get("username");/*임시로 쓰는 변수명 _변수명*/ /*키값 username을 꺼내면 value도 가져오자. 위에 있는 거랑 다름.*/
 			if(_username.equals(username)) { /*일차하면.*/
 				userMap = user; /*내가 찾은 유저맵 아이디가 일치하는 겻 찾으면 멈춰라.*/
 				break;
