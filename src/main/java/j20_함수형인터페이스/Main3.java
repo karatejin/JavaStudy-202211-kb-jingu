@@ -1,8 +1,11 @@
 package j20_함수형인터페이스;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
-import java.util.Objects;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
 import java.util.function.Consumer;
 
 public class Main3 {
@@ -37,7 +40,7 @@ public class Main3 {
 		
 		System.out.println();
 		
-		forEachTest(n -> {System.out.println(n);}, names); /* consumer 객체에 구현과 생성이 이루어짐*/ /*for each 돌면서 이름을 출력한다. */
+		forEachTest(n -> {System.out.println(n);}, names); /* consumer 객체에 구현과 생성이 이루어짐*/ /*for each 돌면서 이름을 출력한다. */		
 
 	}
 
